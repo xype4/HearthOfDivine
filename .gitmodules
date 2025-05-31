@@ -1,0 +1,3 @@
+[submodule "Plugins/InventorySubsystem"]
+	path = Plugins/InventorySubsystem
+	url = https://github.com/xype4/InventorySubsystem.git
