@@ -1,3 +1,6 @@
 [submodule "Plugins/InventorySubsystem"]
 	path = Plugins/InventorySubsystem
 	url = https://github.com/xype4/InventorySubsystem.git
+[submodule "Plugins/EntityAnimations"]
+	path = Plugins/EntityAnimations
+	url = https://github.com/xype4/EntityAnimations.git
