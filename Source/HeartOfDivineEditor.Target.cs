@@ -10,6 +10,11 @@ public class HeartOfDivineEditorTarget : TargetRules
 		Type = TargetType.Editor;
 		DefaultBuildSettings = BuildSettingsVersion.V5;
 
-		ExtraModuleNames.AddRange( new string[] { "HeartOfDivine" } );
+        DefaultBuildSettings = BuildSettingsVersion.V6;
+        IncludeOrderVersion = EngineIncludeOrderVersion.Unreal5_7;
+
+        bOverrideBuildEnvironment = true;
+
+        ExtraModuleNames.AddRange( new string[] { "HeartOfDivine" } );
 	}
 }
