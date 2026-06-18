@@ -9,7 +9,7 @@
 /**
  * 
  */
-UCLASS(Blueprintable, Config = Game)
+UCLASS(Blueprintable, Config = GameEditor)
 
 class HEARTOFDIVINE_API UDA_ConfigTest : public UDataAsset
 {
@@ -18,13 +18,13 @@ class HEARTOFDIVINE_API UDA_ConfigTest : public UDataAsset
     private:
 
     UPROPERTY(Config, VisibleAnywhere)
-    float MyValue = 1.0f;
+    FVector MyValue;
 
     public:
 
     UFUNCTION(BlueprintCallable)
-    void SetMyValue(float NewValue);
+    void SetMyValue(FVector NewValue);
 
     UFUNCTION(BlueprintCallable)
-    float GetMyValue();
+    FVector GetMyValue();
 };

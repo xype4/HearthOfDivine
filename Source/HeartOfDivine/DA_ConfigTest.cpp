@@ -3,13 +3,13 @@
 
 #include "DA_ConfigTest.h"
 
-void UDA_ConfigTest::SetMyValue(float NewValue)
+void UDA_ConfigTest::SetMyValue(FVector NewValue)
 {
 	MyValue = NewValue;
 	SaveConfig();
 }
 
-float UDA_ConfigTest::GetMyValue()
+FVector UDA_ConfigTest::GetMyValue()
 {
 	return MyValue;
 }
